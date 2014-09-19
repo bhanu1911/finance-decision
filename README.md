@@ -8,6 +8,7 @@ Interview test task
 TODO:
 
     1. More advanced database wrapper, where different DBMS (MySQL, PostgreSQL, MongoDB, etc.) can be easily added
+    or use ORM / framework
 
     2. Re-design check() method in Decision class, to support external rules loading
 

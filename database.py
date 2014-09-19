@@ -1,6 +1,7 @@
 import MySQLdb
 
 
+# Database wrapper
 class Db:
     def __init__(self, db_type='mysql', host='127.0.0.1', port=3306, database='test', username='root', password=''):
         self.__dict__.update(locals())
@@ -22,3 +23,4 @@ class Db:
 
     def __del__(self):
         self.disconnect()
+

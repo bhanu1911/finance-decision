@@ -1,7 +1,9 @@
 import json
 import sys
+
 from include import config
-from include.database import *
+from database import *
+
 
 
 # Main class
